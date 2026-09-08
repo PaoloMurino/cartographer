@@ -8,6 +8,18 @@
 
 KB histories with commits authored as `cartographer <cartographer@localhost>` may need a manual author rewrite before a forge with author push rules accepts the first push.
 
+## [0.12.0](https://github.com/BeppeTemp/cartographer/compare/v0.11.0...v0.12.0) (2026-09-08)
+
+
+### Features
+
+* **provisioning:** detect conflicting session-global directives declared by two KBs (D183) ([#238](https://github.com/BeppeTemp/cartographer/issues/238)) ([d24d587](https://github.com/BeppeTemp/cartographer/commit/d24d587b28e9d30da9b7a250aece9bdc00c03000))
+
+
+### Bug Fixes
+
+* **cli:** report the revision each provider recorded, not the one sync fetched (D184) ([#236](https://github.com/BeppeTemp/cartographer/issues/236)) ([fbdfc8b](https://github.com/BeppeTemp/cartographer/commit/fbdfc8b91c9335bd9bf2234b4ad9b27ea1f0df2b))
+
 ## [0.11.0](https://github.com/BeppeTemp/cartographer/compare/v0.10.0...v0.11.0) (2026-09-08)
 
 
